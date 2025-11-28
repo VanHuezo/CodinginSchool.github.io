@@ -1,0 +1,6 @@
+/*TEXT*/
+section:nth-of-type(1){
+    border: #000 solid 3px;
+    background-image: url(pictures/computer_class.jpg);
+   font-size: 9.5rem;
+}

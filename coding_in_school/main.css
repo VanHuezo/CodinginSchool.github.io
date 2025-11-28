@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ *{
+    box-sizing: border-box;
+ }
+/*font and styles*/
+header{
+    font-family: "Space Mono", monospace;
+    border: 5px solid #000;
+    background: #50C878;
+    text-align: center;
+    font-size: 1.9rem;
+}
+nav, main, footer{
+    font-family: "Roboto Mono", monospace;
+}
+footer{
+     border: 3px solid #000;
+     background: #50C878;
+}
+/*background*/
+body{
+    background-color: #C4C0C8;
+}
+
+/*nav*/
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    margin: 1px;
+}
+nav ul li a{
+    text-decoration: none;
+    background: #50C878;
+    padding: 10px;
+    display: block;
+    border-radius: 7px;
+    text-align: center;
+}
+nav ul li a:hover{
+    background: #000;
+    color: #008000;
+}
+
+/*media queries*/
+@media (max-width: 600px) {
+  main {
+  display: block;
+  }
+}
